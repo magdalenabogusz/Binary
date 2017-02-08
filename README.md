@@ -1,2 +1,2 @@
-# Binary
+# BinaryConverter
 decimal int → bin converter

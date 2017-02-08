@@ -4,7 +4,7 @@
 import org.testng.annotations.*;
 import static org.testng.Assert.*;
 
-public class BinaryTest {
+public class BinaryConverterTest {
 
     @Test public void appHasAGreeting() {
 
