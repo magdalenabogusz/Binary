@@ -9,8 +9,8 @@
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
 
-// Apply the application plugin to add support for building an application
-apply plugin: 'application'
+// Apply the app plugin to add support for building an app
+apply plugin: 'app'
 
 // In this section you declare where to find the dependencies of your project
 repositories {
@@ -27,7 +27,7 @@ dependencies {
     testCompile 'org.testng:testng:6.9.13.8'
 }
 
-// Define the main class for the application
+// Define the main class for the app
 mainClassName = 'App'
 
 // Use TestNG for unit tests
