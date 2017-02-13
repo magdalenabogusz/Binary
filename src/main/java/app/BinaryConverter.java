@@ -14,21 +14,14 @@ public class BinaryConverter {
             System.out.println("You have entered wrong data");
             System.exit(0);
         }
-            BinaryConverter converter = new BinaryConverter();
-            String a = converter.binaryConverter(number);// stwarzam nowy objekt
-            System.out.println(" Binary is: " + a); // tylko wyprintuje
-        }
-
-    String binaryConverter(int number) {
-        return Integer.toBinaryString(number); // to co jest idea programu, co mam zrobic
+        BinaryConverter converter = new BinaryConverter();
+        String a = converter.binaryConverter(number);
+        System.out.println(" Binary is: " + a);
     }
 
-    //String s = "Enter your number: ";
-    // System.out.println(s);
-    //
-    //System.out.println("You have entered wrong data");
-
-
+    String binaryConverter(int number) {
+        return Integer.toBinaryString(number);
+    }
 }
 
 
